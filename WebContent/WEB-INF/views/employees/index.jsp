@@ -13,8 +13,6 @@
                 <tr>
                     <th>社員番号</th>
                     <th>氏名</th>
-                    <th>出勤</th>
-                    <th>退勤</th>
                     <th>操作</th>
                 </tr>
                 <c:forEach var="employee" items="${employees}" varStatus="status">
