@@ -116,7 +116,7 @@ public class Employee {
         return begin_time;
     }
 
-    public void setBegin_time(Integer begin_time, int i){
+    public void setBegin_time(Integer begin_time){
         this.begin_time = begin_time;
     }
 
@@ -124,7 +124,7 @@ public class Employee {
         return finish_time;
     }
 
-    public void setFinish_time(Integer finish_time, int j){
+    public void setFinish_time(Integer finish_time){
         this.finish_time = finish_time;
     }
     //ここまで

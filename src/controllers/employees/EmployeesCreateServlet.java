@@ -44,8 +44,8 @@ public class EmployeesCreateServlet extends HttpServlet {
 
             Timestamp currentTime = new Timestamp(System.currentTimeMillis());
 
-            e.setBegin_time(0, 0);
-            e.setFinish_time(0, 0);
+            e.setBegin_time(0000);
+            e.setFinish_time(0000);
 
             e.setCreated_at(currentTime);
             e.setUpdated_at(currentTime);
