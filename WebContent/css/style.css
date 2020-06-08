@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    width : 94%;
+    width : 90%;
     padding-top: 17px;
     padding-left: 3%;
     font-size: 24px;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 22px;
     display: inline;
 }
 
@@ -162,11 +162,11 @@ table#report_list .report_title {
 }
 
 
-table#report_list .report_begin {
+table#report_list .begin_time {
     width: 15%;
 }
 
-table#report_list .report_finish {
+table#report_list .finish_time {
     width: 15%;
 }
 

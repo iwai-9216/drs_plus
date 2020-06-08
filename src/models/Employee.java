@@ -49,7 +49,6 @@ public class Employee {
     @Column(name = "admin_flag", nullable = false)
     private Integer admin_flag;
 
-
     @Column(name = "created_at", nullable = false)
     private Timestamp created_at;
 
@@ -58,14 +57,6 @@ public class Employee {
 
     @Column(name = "delete_flag", nullable = false)
     private Integer delete_flag;
-
-    //追記
-    @Column(name = "begin_time")
-    private Integer begin_time;
-
-    @Column(name = "finish_time")
-    private Integer finish_time;
-    //ここまで
 
     public Integer getId() {
         return id;
@@ -110,24 +101,6 @@ public class Employee {
     public Timestamp getCreated_at() {
         return created_at;
     }
-
-    //追記
-    public Integer getBegin_time() {
-        return begin_time;
-    }
-
-    public void setBegin_time(Integer begin_time){
-        this.begin_time = begin_time;
-    }
-
-    public Integer getFinish_time(){
-        return finish_time;
-    }
-
-    public void setFinish_time(Integer finish_time){
-        this.finish_time = finish_time;
-    }
-    //ここまで
 
     public void setCreated_at(Timestamp created_at) {
         this.created_at = created_at;

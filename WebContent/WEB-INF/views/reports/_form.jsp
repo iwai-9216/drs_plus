@@ -26,12 +26,12 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
-<label for="begin">出勤</label><br />
-<input type="time" name="begin" value="${report.begin_time}" required />
+<label for="begin_time">出勤</label><br />
+<input type="time" name="begin_time" value="<fmt:formatDate value='${report.begin_time}' pattern='HH:mm' />" />
 <br /><br />
 
-<label for="finish">退勤</label><br />
-<input type="time" name="finish" value="${report.finish_time}" required />
+<label for="finish_time">退勤</label><br />
+<input type="time" name="finish_time" value="<fmt:formatDate value='${report.finish_time}' pattern='HH:mm' />" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
